@@ -24,6 +24,7 @@
 		BC2822AE17A2C55A00D9B745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC28228617A2C55900D9B745 /* Foundation.framework */; };
 		BC2822B617A2C55A00D9B745 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC2822B417A2C55A00D9B745 /* InfoPlist.strings */; };
 		BC2822B917A2C55A00D9B745 /* calc5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2822B817A2C55A00D9B745 /* calc5Tests.m */; };
+		BC2822C717A2E10100D9B745 /* Calc1.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2822C617A2E10100D9B745 /* Calc1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		BC2822B517A2C55A00D9B745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC2822B717A2C55A00D9B745 /* calc5Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calc5Tests.h; sourceTree = "<group>"; };
 		BC2822B817A2C55A00D9B745 /* calc5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calc5Tests.m; sourceTree = "<group>"; };
+		BC2822C517A2E10100D9B745 /* Calc1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc1.h; sourceTree = "<group>"; };
+		BC2822C617A2E10100D9B745 /* Calc1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				BC28229C17A2C55900D9B745 /* ViewController.h */,
 				BC28229D17A2C55900D9B745 /* ViewController.m */,
 				BC28229F17A2C55A00D9B745 /* ViewController_iPhone.xib */,
+				BC2822C517A2E10100D9B745 /* Calc1.h */,
+				BC2822C617A2E10100D9B745 /* Calc1.m */,
 				BC2822A217A2C55A00D9B745 /* ViewController_iPad.xib */,
 				BC28228B17A2C55900D9B745 /* Supporting Files */,
 			);
@@ -277,6 +282,7 @@
 				BC28229117A2C55900D9B745 /* main.m in Sources */,
 				BC28229517A2C55900D9B745 /* AppDelegate.m in Sources */,
 				BC28229E17A2C55900D9B745 /* ViewController.m in Sources */,
+				BC2822C717A2E10100D9B745 /* Calc1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
